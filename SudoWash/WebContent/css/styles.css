@@ -1,0 +1,639 @@
+/*setting the properties for the main container*/
+
+.mainContainer {
+    background-image: url(../images/14npm61.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+/*setting the navbar properties*/
+
+.navbar-default {
+
+    border: none;
+    background-color: transparent;
+}
+
+/*setting the text properties in the navbar*/
+
+.nav.navbar-nav li a {
+    color: #00cccc;
+    font-size: 20px;
+    padding-top: 25px;
+
+}
+
+/*Customizes active link and hover link in navbar*/
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:focus {
+    color: #00cccc !important;
+
+}
+
+/*.active a {
+    background-color: darkslategray;
+    opacity: 0.8;
+}*/
+
+.nav.navbar-nav li a:hover {
+    color: #483d8b;
+
+}
+
+/*Setting main content properties*/
+
+.mainContent {
+    object-position: center center;
+}
+
+/*aligning logo to fit in the navbar*/
+
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+    margin-left: 0px;
+    padding-top: 10px;
+}
+
+/*Overriding the navbar button properties*/
+
+.btn-default {
+
+    font-size: 20px;
+    color: #00cccc !important;
+    margin-top: 15px;
+}
+
+/*Maincontent on top of backgroung images properties*/
+
+.mainContent {
+    padding-top: 100px;
+}
+
+/*Main text properties*/
+
+.mainQuote {
+    color: #483d8b;
+
+    /*font-family: Arvo;*/
+    /* font-weight: 1000;*/
+    /* font-family: "Coda Caption";*/
+}
+
+/*Adding button porperties*/
+
+.btn-round-lg {
+    border-radius: 22.5px;
+    background-color: #00cccc !important;
+    color: white !important;
+    font-size: 28px;
+    margin-top: 25px;
+    opacity: 1 !important;
+
+}
+
+.mainImg {
+    padding-top: 60px;
+}
+
+/*How it works container properties*/
+
+.howItWorks {}
+
+
+
+
+
+/*styles for the timeline desciption of How it Works section*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+
+
+.board {
+    /*    width: 100%;
+    margin: 10px auto;
+    height: 500px;
+    background: #fff;*/
+}
+
+.board .nav-tabs {
+
+    margin: 120px auto;
+    margin-bottom: 0;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.board > div.board-inner {
+    background: #fafafa url(http://subtlepatterns.com/patterns/geometry2.png);
+    background-size: 30%;
+}
+
+p.narrow {
+
+    font-size: 20px;
+    font-weight: 600;
+    color: #483d8b;
+}
+
+.liner {
+    height: 2px;
+    background: #ddd;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    /* background-color: #ffffff; */
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tabs {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: white;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+span.round-tabs.one {
+    background: #00cccc !important;
+    border: 2px #00cccc;
+    color: white;
+}
+
+li.active span.round-tabs.one {
+    background: darkslateblue !important;
+    border: 2px darkslateblue;
+    color: white;
+}
+
+span.round-tabs.two {
+    background: #00cccc !important;
+    border: 2px #00cccc;
+    color: white;
+}
+
+li.active span.round-tabs.two {
+    background: darkslateblue !important;
+    border: 2px darkslateblue;
+    color: white;
+
+}
+
+span.round-tabs.three {
+    background: #00cccc !important;
+    border: 2px #00cccc;
+    color: white;
+}
+
+li.active span.round-tabs.three {
+    background: darkslateblue !important;
+    border: 2px darkslateblue;
+    color: white;
+}
+
+span.round-tabs.four {
+    background: #00cccc !important;
+    border: 2px #00cccc;
+    color: white;
+}
+
+li.active span.round-tabs.four {
+    background: darkslateblue !important;
+    border: 2px darkslateblue;
+    color: white;
+}
+
+span.round-tabs.five {
+    background: #00cccc !important;
+    border: 2px #00cccc;
+    color: white;
+}
+
+li.active span.round-tabs.five {
+    background: darkslateblue !important;
+    border: 2px darkslateblue;
+    color: white;
+}
+
+.nav-tabs > li.active > a span.round-tabs {
+    background: #fafafa;
+}
+
+.nav-tabs > li {
+    width: 20%;
+}
+
+
+.nav-tabs > li:after {
+    content: " ";
+    position: absolute;
+    left: 45%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #ddd;
+    transition: 0.1s ease-in-out;
+
+}
+
+.nav-tabs > li.active:after {
+    content: " ";
+    position: absolute;
+    left: 45%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #ddd;
+
+
+
+
+}
+
+.nav-tabs > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+.nav-tabs > li a:hover {
+    background: transparent;
+}
+
+.tab-content {}
+
+.tab-pane {
+    position: relative;
+    padding-top: 30px;
+}
+
+.tab-content .head {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #483d8b;
+
+
+}
+
+.btn-outline-rounded {
+    border-radius: 22.5px;
+    background-color: #00cccc !important;
+    color: white !important;
+    font-size: 28px;
+}
+
+
+*/ @media( max-width: 585px) {
+
+    .board {
+        width: 90%;
+        height: auto !important;
+    }
+    span.round-tabs {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .tab-content .head {
+        font-size: 20px;
+    }
+    .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .nav-tabs > li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+
+    .btn-outline-rounded {
+        padding: 12px 20px;
+    }
+}
+
+
+/*Properties that sets the text-pane (jumbotron) to almost transparent*/
+
+.text-pane {
+    margin-bottom: 30px;
+    opacity: 0.9;
+    color: darkslateblue;
+    background: white;
+}
+
+.btn-lg {}
+
+.getStarted {
+    margin-bottom: 116px;
+}
+
+.createAccount {
+    z-index: 1;
+    opacity: 1!important;
+}
+
+
+/*styles for the hub snippet Start here*/
+
+/*  bhoechie tab */
+
+div.bhoechie-tab-container {
+
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 0 !important;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-clip: padding-box;
+    opacity: 0.96;
+
+    filter: alpha(opacity=200);
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+
+}
+
+div.bhoechie-tab-menu {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+div.bhoechie-tab-menu ul.list-group {
+    margin-bottom: 0;
+    list-style: none;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    color: #483d8b !important;
+}
+
+div.bhoechie-tab-menu ul.list-group > a {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+div.bhoechie-tab-menu ul.list-group > a .glyphicon,
+div.bhoechie-tab-menu ul.list-group > a .fa {
+    color: #5A55A3;
+}
+
+div.bhoechie-tab-menu ul.list-group > a:first-child {
+    border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+}
+
+div.bhoechie-tab-menu ul.list-group > a:last-child {
+    border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+}
+
+div.bhoechie-tab-menu ul.list-group > a.active,
+div.bhoechie-tab-menu ul.list-group > a.active .glyphicon,
+div.bhoechie-tab-menu ul.list-group > a.active .fa {
+    background-color: #00cccc;
+    background-image: #5A55A3;
+    color: #ffffff;
+}
+
+div.bhoechie-tab-menu ul.list-group > a.active:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -13px;
+    border-left: 0;
+    border-bottom: 13px solid transparent;
+    border-top: 13px solid transparent;
+    border-left: 10px solid #5A55A3;
+}
+
+div.bhoechie-tab-content {
+    background-color: #ffffff;
+    /* border: 1px solid #eeeeee; */
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
+    display: none;
+}
+
+.list-group-item {
+    font-size: 20px auto;
+}
+
+
+/*Styles for table in pending job tabs*/
+
+@media only screen and (max-width: 800px) {
+
+    /* Force table to not be like tables anymore */
+    #no-more-tables table,
+    #no-more-tables thead,
+    #no-more-tables tbody,
+    #no-more-tables th,
+    #no-more-tables td,
+    #no-more-tables tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #no-more-tables thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #no-more-tables tr {
+        border: 1px solid #ccc;
+    }
+
+    #no-more-tables td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align: left;
+    }
+
+    #no-more-tables td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    /*
+    Label the data
+    */
+    #no-more-tables td:before {
+        content: attr(data-title);
+    }
+}
+
+
+
+.btn-sm {
+    background: #00cccc !important;
+    color: white;
+
+
+}
+
+.nav-tabs .profileTabs {
+    list-style: none;
+}
+
+
+/*comment styles for hub start here*/
+
+.user_name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.comments-list .media {
+    border-bottom: 1px dotted #ccc;
+}
+
+
+
+/*formRequest.html & StandBy.html Styling*/
+
+/*___________________________________________________*/
+
+.titleQuote {
+    /*padding-top: 120px;*/
+}
+
+.formRequestBody {
+    padding-top: 20px;
+}
+
+/*Divider line for Form*/
+
+.h-divider {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 1px;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+/*Center Circle Shapes*/
+
+#circle1 {
+    width: 90px;
+    height: 90px;
+    background: #E87510;
+    -moz-border-radius: 45px;
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+    box-shadow: 5px 5px grey;
+}
+
+#circle2 {
+    width: 90px;
+    height: 90px;
+    background: black;
+    -moz-border-radius: 45px;
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+    box-shadow: 5px 5px grey;
+}
+
+#circle3 {
+    width: 90px;
+    height: 90px;
+    background: white;
+    -moz-border-radius: 45px;
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+    box-shadow: 5px 5px grey;
+}
+
+.centerShape {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.standBy {
+    text-align: center;
+}
+
+/*Creating map*/
+
+#map {
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+
+}
+
+/*html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}*/
+
+/*-----------------------------------------------------*/
+
+/*End of formRequest.html & StandBy.html Styling*/
+
+.mapContainer {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
